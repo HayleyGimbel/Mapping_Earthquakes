@@ -42,4 +42,3 @@ d3.json(torontoHoods).then(function(data) {
 L.geoJson(data).addTo(map);
 });
 
-
